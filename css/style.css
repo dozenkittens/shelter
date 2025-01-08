@@ -1,0 +1,198 @@
+:root {
+  --color-primary: #f1cdb3;
+  --color-primary-light: #fddcc4;
+  --color-dark-l: #545454;
+  --color-light-l: #f6f6f6;
+  --color-dark-s: #cdcdcd;
+  --color-light-s: #fafafa;
+  --color-dark-xl: #4c4c4c;
+  --color-dark-3xl: #292929;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  padding: 30px 40px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+  background: radial-gradient(234.05% 111.8% at 0% 0%, #262425, #5b483a 100%),
+    #211f20;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  align-items: center;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 32px;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-light-l);
+  margin-top: 10px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  float: right;
+  gap: 35px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: var(--color-dark-s);
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--color-light-s);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+  font-size: 15px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.content {
+  width: 460px;
+  height: 322px;
+  padding-bottom: 243px;
+  padding-top: 253px;
+  /* flex-direction: column;
+    align-items: flex-start; */
+}
+
+.heading {
+  color: var(--color-light-l);
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  width: 310px;
+  height: 114px;
+  margin: 0;
+  padding-bottom: 42px;
+}
+
+.subheading {
+  color: var(--color-dark-s);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0px;
+  padding-bottom: 42px;
+  margin: 0;
+}
+
+.button_primary {
+  font-family: Georgia;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+  font-size: 17px;
+  width: 207px;
+  height: 52px;
+  border-radius: 100px;
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.button_primary:hover {
+  background-color: var(--color-primary-light);
+}
+
+.image-start-puppy {
+  width: 698px;
+  height: 728px;
+  padding-left: 42px;
+  padding-top: 90px;
+}
+
+.container-description {
+  display: flex;
+}
+
+.container-2 {
+  width: 1280px;
+  background-color: var(--color-light-l);
+  position: relative;
+  bottom: 25px;
+  padding: 0;
+  margin: 0 auto;
+}
+.descr {
+  padding: 80px 40px 100px 40px;
+  display: flex;
+}
+
+.image-about-pets {
+  width: 300px;
+  height: 408px;
+  padding-left: 175px;
+}
+
+.content-2 {
+  width: 430px;
+  height: 380px;
+  padding-left: 120px;
+}
+
+.heading-2 {
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 6%;
+  color: var(--color-dark-l);
+}
+
+.subheading-2 {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0px;
+  color: var(--color-dark-xl);
+}
